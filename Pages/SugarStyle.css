@@ -1,0 +1,88 @@
+img.MainUni {
+    border: #CF87FE solid 3px;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+
+}
+
+.Me-Img {
+    border: #CF87FE solid 3px;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+.AboutText {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.Contact-Img {
+    border: #CF87FE solid 3px;
+    border-radius: 5%;
+    display: block;
+    width: 600px;
+    margin-left: 5%;
+
+}
+
+.MainTitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Satisfy';
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #CF87FE;
+
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.logo {
+    border: black solid 7px;
+    border-radius: 50%;
+    margin: 10px;
+    width: 100px;
+    float: left;
+
+}
+
+nav {
+    float: right;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    font-family: 'Satisfy';
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 40px;
+
+}
