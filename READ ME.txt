@@ -1,0 +1,10 @@
+Simple discription (paragraph long):
+I plan to create an e-commerce site for my bakery business.
+
+Technology used:
+HTML/CSS/JavaScript
+
+Milestones/Features:
+Select items to an in a cart.
+
+Customize items within a set of presets including flavor, bake style, color pallet, and extra additions.
