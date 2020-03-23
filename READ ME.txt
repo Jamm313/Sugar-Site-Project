@@ -8,3 +8,7 @@ Milestones/Features:
 Select items to an in a cart.
 
 Customize items within a set of presets including flavor, bake style, color pallet, and extra additions.
+
+3/22/20:
+Populated and styled store page using Css Grid.
+Populated and styled contact page using Css Flexbox.

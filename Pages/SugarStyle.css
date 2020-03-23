@@ -86,3 +86,29 @@ nav li {
     font-size: 40px;
 
 }
+
+.Contact-Flex {
+
+    display: flex;
+    
+}
+
+.Contact-Text {
+
+    margin-left: 30px;
+    font-size: x-large;
+}
+
+.storeitems {
+    display: grid;
+    grid-template-rows:450px 450px 450px 450px 450px 450px;
+    grid-template-columns: 33% 33% 33%;
+
+
+}
+
+.Store-Pics {
+
+    width: 400px;
+    height: 400px;
+}
