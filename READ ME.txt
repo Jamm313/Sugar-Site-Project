@@ -12,3 +12,6 @@ Customize items within a set of presets including flavor, bake style, color pall
 3/22/20:
 Populated and styled store page using Css Grid.
 Populated and styled contact page using Css Flexbox.
+
+3/25/20:
+made the store items more uniform and added social media image links

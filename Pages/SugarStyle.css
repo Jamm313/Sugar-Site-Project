@@ -99,6 +99,22 @@ nav li {
     font-size: x-large;
 }
 
+.Contact-Link-flex {
+
+    display: flex;
+
+}
+
+.Contact-Icons {
+    width: 75px;
+    height: 75px;
+    margin-left: 30px;
+    margin-top: 100px;
+    
+}
+
+
+
 .storeitems {
     display: grid;
     grid-template-rows:450px 450px 450px 450px 450px 450px;
@@ -108,7 +124,8 @@ nav li {
 }
 
 .Store-Pics {
-
+    border: #CF87FE solid 3px;
+    border-radius: 5%;
     width: 400px;
     height: 400px;
 }
