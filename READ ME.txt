@@ -18,4 +18,4 @@ made the store items more uniform and added social media image links
 
 4/23/20
 Added a media query for the store page. Have been reviewing and learning JavaScript in order to 
-implement the actual store elements.
+implement the actual store elements. Updated layouts and added mobile layouts within the Blueprint folder.
