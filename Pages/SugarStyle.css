@@ -129,3 +129,13 @@ nav li {
     width: 400px;
     height: 400px;
 }
+
+
+@media (max-width: 500px) {
+    .storeitems {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}

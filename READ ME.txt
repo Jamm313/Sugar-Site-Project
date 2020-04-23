@@ -15,3 +15,7 @@ Populated and styled contact page using Css Flexbox.
 
 3/25/20:
 made the store items more uniform and added social media image links
+
+4/23/20
+Added a media query for the store page. Have been reviewing and learning JavaScript in order to 
+implement the actual store elements.
