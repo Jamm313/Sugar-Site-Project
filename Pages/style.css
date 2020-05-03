@@ -1,0 +1,210 @@
+/* BASE STYLE */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+
+}
+
+html {
+    --top-spacing: 100px;
+}
+
+/* LINKS */
+a:visited {
+    color: teal;
+
+}
+
+/* NAV BAR */
+.logo-img {
+    border: black solid 7px;
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+header {
+    background-color: #CF87FE;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+}
+
+.nav-toggle {
+    display: none;
+
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+
+}
+.nav-toggle-label span::after {
+    top: 7px;
+}
+
+.nav-main {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background-color: #CF87FE;
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+}
+
+.nav-main ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.nav-main li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+
+}
+
+.nav-main a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    
+
+}
+
+.nav-main a:hover {
+    color: deepskyblue;
+}
+
+.nav-toggle:checked ~ nav {
+    transform: scale(1, 1);
+
+}
+
+.tagline p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 1.3em;
+}
+
+/* HOME PAGE */
+.main-home-content {
+    padding-top: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title-home {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.home-img {
+    border: #CF87FE solid 3px;
+    border-radius: 5%;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+
+}
+
+@media (min-width: 800px) {
+   /* NAV BAR */
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+    }
+
+    .logo-img {
+        margin-left: 8rem;
+    }
+
+    .nav-main {
+        all: unset;
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .nav-main ul {
+        display: flex;
+
+    }
+
+    .nav-main li {
+        margin-left: 4em;
+        margin-bottom: 0;
+
+    }
+
+    .nav-main a {
+        opacity: 1;
+
+    }
+
+    .tagline {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .tagline p {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        color: black;
+        font-family: 'Lobster', cursive;
+        font-size: 1.3em;
+    }
+}
