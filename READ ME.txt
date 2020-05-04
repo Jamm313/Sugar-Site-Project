@@ -23,3 +23,4 @@ implement the actual store elements. Updated layouts and added mobile layouts wi
 5/3/20
 Did a complete redesign of the site to fit the more updated blueprint. 
 Created a responsive nav bar, and wrote cleaner mark up and started to make the rest of the site responsive aswell.
+--- Updated Contact and About pages and made them responsive.

@@ -12,6 +12,12 @@ html {
     --top-spacing: 100px;
 }
 
+footer {
+    border-top: 1px solid black;
+    margin-top: 20px;
+
+}
+
 /* LINKS */
 a:visited {
     color: teal;
@@ -132,7 +138,7 @@ header {
 
 /* HOME PAGE */
 .main-home-content {
-    padding-top: 8em;
+    padding-top: 10em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,7 +158,99 @@ header {
 
 }
 
-@media (min-width: 800px) {
+/* ABOUT PAGE */
+.main-about-content {
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-title-about{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.about-img {
+    border: #CF87FE solid 3px;
+    border-radius: 5%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
+
+.main-about-content p {
+    font-family: Calibri, Verdana;
+    font-size: larger;
+    line-height: 1.3;
+
+}
+
+/* CONTACT PAGE */
+.main-contact-content {
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-img {
+    border: #CF87FE solid 3px;
+    border-radius: 5%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
+
+.main-title-contact {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.main-contact-content p {
+    font-family: Calibri, Verdana;
+    font-size: larger;
+    line-height: 1.3;
+
+}
+
+.social-media-imgs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+
+}
+
+.facebook-logo {
+    width: 50px;
+    border: #CF87FE solid 3px;
+    border-radius: 50%;
+
+}
+
+.insta-logo {
+    width: 50px;
+    margin-left: 3rem;
+    border: #CF87FE solid 3px;
+    border-radius: 50%;
+
+}
+
+.email-logo {
+    width: 50px;
+    margin-left: 3rem;
+    border: #CF87FE solid 3px;
+    border-radius: 50%;
+
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 950px) {
    /* NAV BAR */
     .nav-toggle-label {
         display: none;
@@ -206,5 +304,55 @@ header {
         color: black;
         font-family: 'Lobster', cursive;
         font-size: 1.3em;
+    }
+
+    /* HOME PAGE */
+
+    .main-home-content {
+        padding-top: 5em;
+
+    }
+
+    .home-img {
+        max-width: 600px;
+
+    }
+
+    /* ABOUT PAGE */
+    .main-about-content {
+        padding-top: 5em;
+    }
+
+    .about-img {
+        max-width: 600px;
+
+    }
+
+    /* CONTACT PAGE */
+    .main-contact-content {
+        padding-top: 5em;
+
+    }
+
+    .contact-flex {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .contact-flex p {
+        margin-left: 5em;
+
+    }
+
+    .contact-img {
+        max-width: 500px;
+        margin-left: 1rem;
+
+    }
+
+    .social-media-imgs {
+        right: 80%;
+
     }
 }
