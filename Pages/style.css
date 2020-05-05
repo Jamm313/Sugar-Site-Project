@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Lobster', cursive;
 
 }
@@ -248,6 +248,183 @@ header {
 
 }
 
+/* STORE PAGE */
+
+
+.main-title-store {
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-top: 3.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.categories {
+    background-color: #CF87FE;
+    text-align: center;
+    position: fixed;
+    z-index: 998;
+    width: 100%;
+    top: 200;
+    display: flex;
+    margin-bottom: 0;
+
+}
+
+.categories ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-top: 1.6em;
+
+}
+
+.categories li {
+    margin-left: 7px;
+    border-left: 2px solid white;
+    padding-left: 3px;
+
+}
+
+.categories a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+
+}
+
+.categories a:hover {
+    color: deepskyblue;
+
+}
+
+.main-store-content img {
+    border: #CF87FE solid 3px;
+    border-radius: 5%;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    margin-top: 1rem;    
+
+}
+
+.category-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.BCakes,
+.CBP,
+.PSC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* CART PAGE */
+.main-cart-content {
+    padding-top: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-products {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.container-products ion-icon {
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.product ion-icon {
+    cursor: pointer;
+    
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 75px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    width: 30%;
+}
+
+.basketTotal {
+    width: 10%;
+}
+
+
 /* MEDIA QUERY */
 
 @media (min-width: 950px) {
@@ -355,4 +532,36 @@ header {
         right: 80%;
 
     }
+
+    /* STORE PAGE */
+    .categories {
+        all: unset;
+        background-color: #CF87FE;
+        text-align: center;
+        position: fixed;
+        z-index: 998;
+        width: 100%;
+        top: 100;
+        display: flex;
+
+    }
+
+    .BCakes, .CBP, .PSC {
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 6rem;  
+    }
+
+    .BCakes img, .CBP img, .PSC img {
+        margin-left: 1em;
+
+    }
+
+    .category-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
 }

@@ -4,13 +4,14 @@
         <title>Sugar Beard Bakes</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="normalize.css">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div class="tester">
         <header>
-            <img src="../Img/SugarLogo.jpg" alt="Logo" class="logo-img">
+           <a href="Home.html"> <img src="../Img/SugarLogo.jpg" alt="Logo" class="logo-img"></a>
             <div class="tagline">
                 <h1>Sugar Beard Bakes</h1>
                 <p><em>"Making Life A Little Sweeter"</em></p>
@@ -23,6 +24,7 @@
                     <li><a href="Store.html">Store</a></li>
                     <li><a href="Contact.html">Contact</a></li>
                     <li><a href="About.html">About</a></li>
+                    <li class="cart"><a href="cart.html"><ion-icon name="basket"></ion-icon><span>0</span></a></li>
                 </ul>
             </nav>
             <label for="nav-toggle" class="nav-toggle-label">
@@ -48,7 +50,10 @@
 
         <footer>
             <p>&copy;2020 Sugar Beard Bakes</p>
+            <a href="#top">Back to top of page</a>
         </footer>
+        <script src="main.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </body>
 
 </html>

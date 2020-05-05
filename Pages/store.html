@@ -4,13 +4,14 @@
         <title>Sugar Beard Bakes</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="normalize.css">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div class="tester">
         <header>
-            <img src="../Img/SugarLogo.jpg" alt="Logo" class="logo-img">
+           <a href="Home.html"> <img src="../Img/SugarLogo.jpg" alt="Logo" class="logo-img"></a>
             <div class="tagline">
                 <h1>Sugar Beard Bakes</h1>
                 <p><em>"Making Life A Little Sweeter"</em></p>
@@ -23,6 +24,7 @@
                     <li><a href="Store.html">Store</a></li>
                     <li><a href="Contact.html">Contact</a></li>
                     <li><a href="About.html">About</a></li>
+                    <li class="cart"><a href="cart.html"><ion-icon name="basket"></ion-icon><span>0</span></a></li>
                 </ul>
             </nav>
             <label for="nav-toggle" class="nav-toggle-label">
@@ -30,11 +32,13 @@
             </label>
 
         </header>
+        <div id="BCakes"></div>
+        
+        <h1 class="main-title-store">Store</h1>
 
-        <h1>Store</h1>
         <div class="Categories">
             <h2>Categories:</h2>
-            <nav>
+            <nav class="categories-nav">
                 <ul>
                     <li><a href="#BCakes">Birthday Cakes</a></li>
                     <li><a href="#CBP">Cookies/Brownies/Pops</a></li>
@@ -42,37 +46,84 @@
                 </ul>
             </nav>
         </div>
-        <main>
-        <section>
-            <h3 id="BCakes">Birthday Cakes</h3>
-            <img src="../Img/Blue1.png">
-            <img src="../Img/Choc4.jpeg">
-            <img src="../Img/Mac2.png">
+
+        <main class="main-store-content">
+            <h2 class="category-title">Birthday Cakes</h2>
+        <section class="BCakes">
+
+            <div class="image">
+            <img src="../Img/Blue1.jpg">
+            <h3>Blue Princess</h3>
+            <h3>$50.00</h3>
+            <a class="add-cart cart1" href="#">Add Cart</a>
+            <input type="hidden" value="50" />
+            </div>
+
+            <div class="image">
+            <img src="../Img/Choc4.jpg">
+            <h3>Chocolate Driz Cake</h3>
+            <h3>$35.00</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+            <input type="hidden" value="35" />
+            </div>
+
+            <div class="image">
+            <img src="../Img/Mac2.jpg">
+            <h3>Holy Macroon Cake</h3>
+            <h3>$35.00</h3>
+            <a class="add-cart cart3" href="#">Add Cart</a>
+            <input type="hidden" value="35" />
+            </div>
+
+            <div class="image">
             <img src="../Img/Uni2.jpg">
+            <h3>Unicorn Cake</h3>
+            <h3>$45.00</h3>
+            <a class="add-cart cart4" href="#">Add Cart</a>
+            <input type="hidden" value="45" />
+            </div>
+
+            <div class="image">
             <img src="../Img/Peach2.jpg">
-            <img src="../Img/Mon1.jpg">
-        </section>
-        
-        <section>
-            <h3 id="CBP">Cookies/Brownies/Pops</h3>
-            <img src="../Img/Cookie1.jpg">
-            <img src="../Img/Brown1.jpg">
-            <img src="../Img/CakePop1.jpg">
+            <h3>Peach Ring Cake</h3>
+            <h3>$30.00</h3>
+            <a class="add-cart cart5" href="#">Add Cart</a>
+            <input type="hidden" value="30" />
+            </div>
+
+            <div class="image">
+            <img src="../Img/Mon1.jpg" id="CBP">
+            <h3>Monster Cake</h3>
+            <h3>$30.00</h3>
+            <a class="add-cart cart6" href="#">Add Cart</a>
+            <input type="hidden" value="30" />
+            </div>
         </section>
 
-        <section>
-            <h3 id="PSC">Pies/Small Cakes</h3>
+        <h2 class="category-title">Cookies/Brownies/Pops</h2>
+        <section class="CBP">
+            <img src="../Img/Cookie1.jpg">
+            <img src="../Img/Brown1.jpg">
+            <img src="../Img/CakePop1.jpg" id="PSC">
+        </section>
+
+        <h2 class="category-title">Pies/Small Cakes</h2>
+        <section class="PSC">
             <img src="../Img/Mini1.jpg">
             <img src="../Img/Straw1.jpg">
             <img src="../Img/SweetPo1.jpg">
             <img src="../Img/ChocC2.jpg">
             <img src="../Img/Car1.jpg">
         </section>
+        
 
         </main>
         <footer>
             <p>&copy;2020 Sugar Beard Bakes</p>
+            <a href="#top">Back to top of page</a>
         </footer>
+        <script src="main.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     </body>
 
 </html>
