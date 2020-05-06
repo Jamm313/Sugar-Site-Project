@@ -37,6 +37,54 @@ let products = [
         price: 30,
         inCart: 0
     },
+    {
+        name: "Chocolate Chip Cookies",
+        tag: "Cookie1",
+        price: 8,
+        inCart: 0
+    },
+    {
+        name: "Brownies",
+        tag: "Brown1",
+        price: 12,
+        inCart: 0
+    },
+    {
+        name: "Cake Pops",
+        tag: "CakePop1",
+        price: 10,
+        inCart: 0
+    },
+    {
+        name: "Mini Apple Pies",
+        tag: "Mini1",
+        price: 20,
+        inCart: 0
+    },
+    {
+        name: "Strawberry Cake",
+        tag: "Straw1",
+        price: 15,
+        inCart: 0
+    },
+    {
+        name: "Sweet Potatoe Pie",
+        tag: "SweetPo1",
+        price: 10,
+        inCart: 0
+    },
+    {
+        name: "Chocolate Cake",
+        tag: "ChocC2",
+        price: 15,
+        inCart: 0
+    },
+    {
+        name: "Caramel Cake",
+        tag: "Car1",
+        price: 20,
+        inCart: 0
+    },
 ];
 
 for(let i=0; i< carts.length; i++) {
@@ -75,6 +123,7 @@ function cartNumbers(product, action) {
 }
 
 function setItems(product) {
+    
     let cartItems = localStorage.getItem('productsInCart');
     cartItems = JSON.parse(cartItems);
 

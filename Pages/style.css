@@ -563,5 +563,10 @@ header {
         align-items: center;
 
     }
+
+    .main-title-store {
+        padding-top: 2.7em;
+
+    }
     
 }
