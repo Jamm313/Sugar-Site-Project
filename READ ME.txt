@@ -29,7 +29,15 @@ Created a responsive nav bar, and wrote cleaner mark up and started to make the 
 Added the cart in nav bar,and cart page with JavaScript elements.
 
 5/6/20
-Scrapped the previous JavaScript for simpler code, 
+Scrapped the previous JavaScript for simpler code, decided to go back to the original Home page plan and not
+do a carousel due to time. Inclueded the Cart section onto the Store page. Made all pages responsive.
+
+Personal Sidenote: I learned a lot from this program and working on this project, I struggled with 
+time due to personal matters as explained to Eric Kepner, but none the less I'm proud of the work I've done 
+and am happy to turn it in. I have reccommended the program to some friends and one signed up for the next round
+of classes. Thank you to all the mentors and program associates who make Code Louisville happen. 
+
+
 Used Resouces:
 Treehouse Front-End Track
 Web Dev Simplified CSS, JavaScript Course
