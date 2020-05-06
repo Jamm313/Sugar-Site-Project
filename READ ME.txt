@@ -24,3 +24,15 @@ implement the actual store elements. Updated layouts and added mobile layouts wi
 Did a complete redesign of the site to fit the more updated blueprint. 
 Created a responsive nav bar, and wrote cleaner mark up and started to make the rest of the site responsive aswell.
 --- Updated Contact and About pages and made them responsive.
+
+5/5/20
+Added the cart in nav bar,and cart page with JavaScript elements.
+
+5/6/20
+Scrapped the previous JavaScript for simpler code, 
+Used Resouces:
+Treehouse Front-End Track
+Web Dev Simplified CSS, JavaScript Course
+MDN
+
+ 
